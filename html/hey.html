@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<meta charset='UTF-8' />
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5'
+   name='viewport' />
+<meta content='IE=edge' http-equiv='X-UA-Compatible' />
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+<link href="https://hey.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" />
+
+<head>
+</head>
+
+<body>
+   <!-- Ganti Background -->
+   <style>
+      body {
+         background-image: url("photoo.jpg");
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: 100% 100%;
+      }
+   </style>
+
+</script>
+
+   <div id='Content'>
+      <div id="bingkai" class="foto">
+         <div class="image">
+            <!-- Foto Akhir --><img src="https://i.postimg.cc/2jMdQdpN/hbd.jpg" width="150px" height="150px" />
+         </div>
+         <p id="teks1"></p>
+         <p id="teks2"></p>
+      </div>
+
+      <marquee id="imglewat" direction="right">
+         <!-- Foto Lewat -->
+
+         <img src="gambar.jpg" width="100px" height="100px" />
+         <img src="poto.jpg" width="100px" height="100px" />
+         <img src="cantik.jpg" width="100px" height="100px" />
+         <img src="ifah.jpg" width="100px" height="100px" />
+         <img src="mantap.jpg" width="100px" height="100px" />
+         <img src="photoo.jpg" width="100px" height="100px" />
+         <img src="sip.jpg" width="100px" height="100px" />
+
+         <img src="gambar.jpg" width="100px" height="100px" />
+         <img src="poto.jpg" width="100px" height="100px" />
+         <img src="cantik.jpg" width="100px" height="100px" />
+         <img src="ifah.jpg" width="100px" height="100px" />
+         <img src="mantap.jpg" width="100px" height="100px" />
+         <img src="photoo.jpg" width="100px" height="100px" />
+         <img src="sip.jpg" width="100px" height="100px" />
+
+         <img src="gambar.jpg" width="100px" height="100px" />
+         <img src="poto.jpg" width="100px" height="100px" />
+         <img src="cantik.jpg" width="100px" height="100px" />
+         <img src="ifah.jpg" width="100px" height="100px" />
+         <img src="mantap.jpg" width="100px" height="100px" />
+         <img src="photoo.jpg" width="100px" height="100px" />
+         <img src="sip.jpg" width="100px" height="100px" />
+
+         <img src="gambar.jpg" width="100px" height="100px" />
+         <img src="poto.jpg" width="100px" height="100px" />
+         <img src="cantik.jpg" width="100px" height="100px" />
+         <img src="ifah.jpg" width="100px" height="100px" />
+         <img src="mantap.jpg" width="100px" height="100px" />
+         <img src="photoo.jpg" width="100px" height="100px" />
+         <img src="sip.jpg" width="100px" height="100px" />
+
+      </marquee>
+
+      <h1>HAPPY BRITHDAY TO YOU</h1>
+      <H2>SYARIFAH ROZAINI &#129395;  &#129321;</H2>
+      <style>
+         h1 {
+         margin-top: 5%;
+         font-family: 'Segoe UI';
+         font-size: 30px;
+         text-align: center;
+         color: rgb(255, 255, 255);
+      }
+      H2 {
+         margin-top: 5%;
+         font-family: 'Segoe UI';
+         font-size: 30px;
+         text-align: center;
+         color: rgb(25, 0, 255);
+      }
+      </style>
+
+      <div id='pergeseran'>
+         <p>HAPPY BRITHDAY &#129395;</p>
+         <p>SAYANG &#129321;</p>
+         <p>SYARIFAH  &#129395;</p>
+         <p>SELAMAT YAA  &#129395;</p>
+         <p>SEMOGA <span id="kuning">SEHAT SELALU</span></p>
+         <p>DI PERLANCAR <span id="kuning">SEGALA URUSAN NYA</span></p>
+         <p>PANJANG UMUR &#129395;</p>
+         <p>DAN HAL BAIK LAINNYA </p>
+         <p>SERTA &#129315;</p>
+         <p id="kuning">SEMANGATTTT</p>
+         <P>MENJALANI SEGALA HAL &#129315;</P>
+         <p>Klik ini dong &#128073; <a id="tm" onClick='reaksi();setInterval(createHeart,100);'>[ &#127873; ]</a></p>
+      </div>
+   </div>
+
+   <div id="bodyblur"></div>
+   <script>
+      var i = 0, teks1; teks1 =
+         "Happy Birthday!"
+      var u = 0, teks2; teks2 =
+         "SYARIFAH ROZAINI"
+
+      //Audio Link MP3
+      function play() {
+         var audio = new
+            Audio("https://hey.likeadream.repl.co/FindMe.mp3"); audio.play();
+      } const swals = Swal.mixin({ cancelButtonColor: '#909090', confirmButtonColor: '#2B2B2B', allowOutsideClick: false, });
+   </script>
+
+   <script>
+      async function start() { await swals.fire('Hallo Syarifah Rozaini &#129321;'); setTimeout(mulai, 1200); imglwt(); play(); } start();
+      function imglwt() { var marquee = document.getElementById("imglewat"); marquee.start(); document.getElementById('imglewat').style.display = "block"; }
+      function showDiv() { document.getElementById('Content').style.opacity = "1"; }
+      function iloveu() { document.getElementById('sp1').style.display = "none"; document.getElementById('sp2').style.display = "block"; document.getElementById('text2').style.display = "none"; }
+      function mulai() { ketiknm(); showDiv(); } function ketiknm() { document.getElementById('pergeseran').style.opacity = "1"; document.getElementById('pergeseran').style.visibility = "visible"; document.getElementById('pergeseran').style.margin = "100px 0 0 0"; }
+
+      //Reaksi
+      async function reaksi() {
+         document.getElementById('imglewat').style.display = "none"; document.getElementById('pergeseran').style.display = "none";
+         document.getElementById('bodyblur').style.opacity = "1"; document.getElementById('bodyblur').style.visibility = "visible"; document.getElementById('bingkai').style.display = "block";
+         textaksi();
+      }
+      function textaksi() { if (i < teks1.length) { document.getElementById("teks1").innerHTML += teks1.charAt(i); i++; setTimeout(textaksi, 100); } if (i == teks1.length) { setTimeout(textaksi2, 150); } }
+      function textaksi2() { if (u < teks2.length) { document.getElementById("teks2").innerHTML += teks2.charAt(u); u++; setTimeout(textaksi2, 150); } if (u == teks2.length) { } }
+   </script>
+
+   <script>
+      const body = document.querySelector("body");
+      function createHeart() {
+         const heart = document.createElement("div");
+         heart.className = "fas fa-heart";
+         heart.style.left = (Math.random() * 90) + "vw";
+         heart.style.animationDuration = (Math.random() * 3) + 2 + "s"
+         body.appendChild(heart);
+      }
+      setInterval(function name(params) {
+         var heartArr = document.querySelectorAll(".fa-heart")
+         if (heartArr.length > 100) {
+            heartArr[0].remove()
+         }
+      }, 100)
+
+   </script>
+
+   </script>
+</body>
+</html>
